@@ -1,0 +1,57 @@
+// Carbon Design System entrypoint.
+// This pulls in Carbon's reset, grid, type, theme, and every component's
+// styles used on the demo page below.
+@use '@carbon/react';
+
+// Lightweight, demo-only layout helpers (kept deliberately plain so the
+// visual weight of each section comes from Carbon components themselves).
+.demo-content {
+  padding-bottom: 3rem;
+}
+
+.demo-grid {
+  margin-bottom: 1.5rem;
+}
+
+.demo-page-title {
+  margin-top: 2rem;
+}
+
+.demo-page-subtitle {
+  margin-bottom: 1rem;
+  max-width: 40rem;
+}
+
+.demo-section {
+  margin: 0 1rem 3rem;
+}
+
+.demo-section__title {
+  margin-bottom: 0.5rem;
+}
+
+.demo-section__description {
+  margin-bottom: 1.5rem;
+  max-width: 40rem;
+}
+
+.demo-fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.demo-fieldset > .cds--checkbox-wrapper {
+  margin-bottom: 0.5rem;
+}
+
+.demo-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.demo-tile {
+  margin: 0 1rem;
+}
